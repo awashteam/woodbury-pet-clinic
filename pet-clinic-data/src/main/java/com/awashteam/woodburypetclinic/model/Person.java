@@ -1,4 +1,4 @@
-package com.awashteam.woodborypetclinic.model;
+package com.awashteam.woodburypetclinic.model;
 
 public class Person {
 

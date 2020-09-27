@@ -1,7 +1,6 @@
-package com.awashteam.woodborypetclinic.model;
+package com.awashteam.woodburypetclinic.model;
 
 import java.time.LocalDate;
-import java.util.Locale;
 
 public class Pet {
 
@@ -9,11 +8,11 @@ public class Pet {
     private Owner owner;
     private LocalDate birthDate;
 
-    public PetType getPetType() {
+    public com.awashteam.woodburypetclinic.model.PetType getPetType() {
         return petType;
     }
 
-    public void setPetType(PetType petType) {
+    public void setPetType(com.awashteam.woodburypetclinic.model.PetType petType) {
         this.petType = petType;
     }
 
